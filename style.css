@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f2f2f2;
+}
+
+.hero button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.contact {
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.contact input[type="submit"],
+.contact button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.about {
+    background-color: #f0f8ff;
+    padding: 30px;
+    text-align: center;
+}
+.about h2 {
+    color: #228B22;
+}
+.about p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.payment {
+    padding: 30px;
+    text-align: center;
+    background-color: #f8fff0;
+}
+
+.payment ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.payment li {
+    margin: 10px 0;
+}
+
+.payment img {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.offers {
+  background-color: #fff8e1;
+  padding: 30px;
+  text-align: center;
+}
+
+.offers h2 {
+  color: #e65100;
+}
+
+.offer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offer {
+  background-color: #fff3cd;
+  padding: 20px;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.product-carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.product-track {
+  display: flex;
+  width: calc(250px * 8); /* Adjust if you have more/less */
+  animation: scrollProducts 25s linear infinite;
+}
+
+@keyframes scrollProducts {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.product {
+  width: 250px;
+  flex: 0 0 auto;
+  margin: 0 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
