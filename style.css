@@ -188,4 +188,131 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
+  margin-right: 5px;
+  display: inline-block;
 }
+
+
+
+
+
+.vertical img
+{
+    width: 300px;
+    height: auto;
+    border-radius: 5px 5px 0 0;   
+}
+
+.product1 button
+{
+  background-color: rgb(250, 164, 5);
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  bottom: 10px;
+  transition: opcity 20px;
+}
+
+.product1 p
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product1
+{
+ display: flex;
+ margin-left: 30px;
+}
+
+.vertical
+{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.vertical img
+{
+  width: 200px;
+  border-radius: 8px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+.vertical1
+{
+  display: grid;
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  border: 500px;
+  margin: auto;
+}
+.vertical1 img
+{
+  border-radius: 5px 5px 0 0;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  display: flex; 
+  margin: auto;
+}
+
+.product2
+{
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: 1px solid#ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: #fff;
+  gap: 10px;
+  margin-right: 40px;
+  margin: auto;
+  padding: 100px;
+}
+
+.product2 img
+{
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  display: block;
+  
+}
+
+.product2 button
+{
+  background-color: rgb(226, 149, 7);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+
+.phonepay
+{
+ width: 200px;
+ height: 350px;
+ justify-content: center;
+ margin: auto;
+}
+
